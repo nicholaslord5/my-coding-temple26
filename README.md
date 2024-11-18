@@ -13,14 +13,23 @@ Error Handling: Safeguards against invalid inputs and database connection errors
 Project Structure
 
 library-management-system/
+
 |–– library/
+
 │   |–– book.py          # Book module
+
 │   |–– user.py          # User module
+
 │   |–– author.py        # Author module
+
 |
+
 |–– database.py          # connects modules and SQL database
+
 |–– main.py              # Main menu script
+
 |–– README.md            # Project documentation
+
 
 Features
 1. Book Operations
